@@ -4,9 +4,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 
 header('Content-Type: application/json');
+
 try
 {
-
 	$fio = null;
 	if (isset($_POST['fio'])) $fio = htmlspecialchars($_POST['fio']);
 
@@ -18,8 +18,7 @@ try
 
 	if ($fio == null) throw new Exception('Введите ваше имя!');
 	if ($phone == null) throw new Exception('Введите ваш телефон!');
-//	if ($len == null) throw new Exception('Укажите длину кухонного гарнитура!');
-	
+
 	
 	$mailer = new PHPMailer();
 
