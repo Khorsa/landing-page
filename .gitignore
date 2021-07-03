@@ -1,2 +1,5 @@
 
 var/cache/*
+vendor/
+assets/styles.min.css
+composer.lock
