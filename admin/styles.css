@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	min-height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #4180D1;
+	-webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	min-height: 100%;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.cf {
+	float: none;
+	clear: both;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 200px auto;
+	height: 100%;
+}
+
+form.loginform {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+form.loginform label
+{
+	display: block;
+	padding: 0px 0px;
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+}
+
+form.loginform input
+{
+	width: 100%;
+	display: block;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+form.loginform input[type=submit]
+{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	width: 100px;
+	float: right;
+	cursor: pointer;
+}
+
+form.loginform .message {
+	font-size: 14px;
+	padding-top: 10px;
+	color: #f00;
+}
+
+
+
+
+.menu {
+	background-color: rgba(255,255,255,1);
+	color: #000;
+	height: 100%;
+	position: relative;
+}
+
+.menu a.logo {
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+
+}
+
+nav {
+}
+
+nav a {
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+
+
+nav a:hover {
+	background-color: rgba(199,199,199,0.1);
+}
+
+.menu a.logout {
+	padding: 10px;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #eee;
+	text-align: center;
+	color: #666;
+	text-decoration: none;
+	
+}
+
+
+.template-edit {
+	width: 100%;
+	height: 100%;
+	resize: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+	padding: 10px 20px;
+}
+
+.template-form {
+	height: 100%;
+	width: 100%;
+}
+
+
+.submit-template {
+	position: fixed;
+	top: 10px;
+	right: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+{
+    "require": {
+        "scssphp/scssphp": "^1.5",
+        "components/jquery": "^3.5",
+        "phpmailer/phpmailer": "^6.4",
+        "ext-json": "*",
+        "twig/twig": "^3.0"
+    }
+}
